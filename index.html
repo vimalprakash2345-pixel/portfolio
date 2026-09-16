@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vimalathithan | Full Stack Developer</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:#f5f7fb;color:#1e293b;line-height:1.6}
+    nav{position:fixed;top:0;width:100%;background:#fff;padding:16px 8%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 12px #00000012;z-index:10}
+    nav h2{color:#2563eb} nav ul{display:flex;gap:22px;list-style:none} nav a{text-decoration:none;color:#334155;font-weight:600}
+    .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:100px 20px 50px;background:linear-gradient(135deg,#eff6ff,#fff)}
+    .hero h1{font-size:52px;margin-bottom:8px}.hero h1 span{color:#2563eb}.hero h3{font-size:24px;color:#475569;margin-bottom:18px}.hero p{max-width:680px;color:#64748b;margin:auto}
+    .buttons{margin-top:28px}.btn{display:inline-block;padding:12px 24px;border-radius:7px;text-decoration:none;font-weight:bold;margin:5px}.primary{background:#2563eb;color:#fff}.secondary{border:2px solid #2563eb;color:#2563eb}
+    section{padding:75px 8%}.title{text-align:center;font-size:32px;margin-bottom:35px}
+    .about{max-width:850px;margin:auto;text-align:center;color:#64748b}
+    .skills{display:flex;flex-wrap:wrap;justify-content:center;gap:13px;max-width:900px;margin:auto}.skill{background:#fff;padding:12px 20px;border-radius:8px;box-shadow:0 3px 12px #0000000d;font-weight:bold}
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:22px}.project{background:#fff;padding:25px;border-radius:10px;box-shadow:0 4px 15px #0000000d}.project h3{color:#2563eb;margin-bottom:10px}.project p{color:#64748b;margin-bottom:12px}.project a{color:#2563eb;text-decoration:none;font-weight:bold}
+    .education{max-width:700px;margin:auto}.edu{background:#fff;padding:23px;margin-bottom:18px;border-left:5px solid #2563eb;box-shadow:0 3px 12px #0000000d}.edu p{color:#64748b}
+    .contact{text-align:center}.contact p{margin:9px;color:#64748b}.contact a{color:#2563eb;text-decoration:none}
+    footer{text-align:center;background:#1e293b;color:#fff;padding:22px}
+    @media(max-width:700px){nav{padding:15px 5%}nav ul{display:none}.hero h1{font-size:38px}.hero h3{font-size:20px}section{padding:60px 5%}}
+  </style>
+</head>
+<body>
+<nav>
+  <h2>Vimalathithan</h2>
+  <ul>
+    <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <h1>Hi, I'm <span>Vimalathithan</span></h1>
+    <h3>Full Stack Developer | IT Professional</h3>
+    <p>B.Tech Information Technology graduate interested in web development, software technologies, Python, SQL and building real-world applications.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#projects">View Projects</a>
+      <a class="btn secondary" href="#contact">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About Me</h2>
+  <div class="about">
+    <p>I am a B.Tech Information Technology graduate with hands-on knowledge of MERN Stack, Python, SQL, JavaScript and database management. I am looking for an opportunity to improve my technical skills, contribute to real-world projects and grow as an IT professional.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="title">Technical Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div><div class="skill">CSS</div><div class="skill">JavaScript</div>
+    <div class="skill">React.js</div><div class="skill">Node.js</div><div class="skill">Express.js</div>
+    <div class="skill">MongoDB</div><div class="skill">Python</div><div class="skill">SQL</div>
+    <div class="skill">Git</div><div class="skill">GitHub</div><div class="skill">REST API</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="title">Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Student Management System</h3>
+      <p>CRUD-based application for adding, viewing, updating and deleting student records.</p>
+      <p><strong>Technologies:</strong> Angular, Node.js, Express.js, MongoDB</p>
+      <a href="https://github.com/" target="_blank">GitHub →</a>
+    </div>
+    <div class="project">
+      <h3>Python Data Analysis</h3>
+      <p>Data analysis project focused on cleaning, analyzing and visualizing data to generate useful insights.</p>
+      <p><strong>Technologies:</strong> Python, Pandas, NumPy, Matplotlib</p>
+      <a href="https://github.com/" target="_blank">GitHub →</a>
+    </div>
+    <div class="project">
+      <h3>SQL Data Analysis</h3>
+      <p>Database project using queries, joins, grouping and aggregation for business-oriented analysis.</p>
+      <p><strong>Technologies:</strong> SQL, MySQL</p>
+      <a href="https://github.com/" target="_blank">GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="title">Education</h2>
+  <div class="education">
+    <div class="edu"><h3>B.Tech – Information Technology</h3><p>E.G.S Pillay Engineering College</p><p>2023 | CGPA: 8.4</p></div>
+    <div class="edu"><h3>Higher Secondary Education</h3><p>National Higher Secondary School</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">Contact Me</h2>
+  <div class="contact">
+    <p>📧 Email: <a href="mailto:vimalprakash2345@gmail.com">vimalprakash2345@gmail.com</a></p>
+    <p>📱 Phone: +91 9384493695</p>
+    <p>💼 LinkedIn: <a href="https://www.linkedin.com/" target="_blank">LinkedIn Profile</a></p>
+    <p>💻 GitHub: <a href="https://github.com/" target="_blank">GitHub Profile</a></p>
+  </div>
+</section>
+
+<footer><p>© 2026 Vimalathithan. All Rights Reserved.</p></footer>
+</body>
+</html>
